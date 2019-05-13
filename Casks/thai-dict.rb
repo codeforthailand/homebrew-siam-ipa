@@ -1,4 +1,4 @@
-cask 'mac-thai-dict' do
+cask 'thai-dict' do
     version '1.0.1'
   
     url "https://www.dropbox.com/s/dl/bfwer9f3fjmnuwq/mac-thai-dict-#{version}.pkg"
