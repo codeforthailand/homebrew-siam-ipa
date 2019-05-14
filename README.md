@@ -23,7 +23,7 @@ $ brew tap codeforthailand/siam-ipa
 3. ...
 
 ## Contributions
-If you see any MAC OSX packages that are developed for Thai people, please let us know or consider making PRs for them. We're more than happy to recieve your PRs.
+If you see any macOS packages or applications that are developed for Thai people, please let us know or consider making PRs for them. We're more than happy to recieve your PRs.
 
 
 [1]: https://brew.sh
