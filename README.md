@@ -12,11 +12,11 @@ $ brew tap codeforthailand/siam-ipa
 ```
 
 ## Available Formulae and Casks
-1. Thai-Eng Dictionary by Infinisoft and NECTEC
+1. [Thai-Eng Dictionary by Infinisoft and NECTEC][thai-dict]
     ```
     $ brew cask install thai-dict
     ```
-2. 13 Thai National Fonts by SIPA
+2. [13 Thai National Fonts by SIPA][sipa-font]
     ```
     $ brew cask install thai-national-fonts
     ```
@@ -28,3 +28,5 @@ If you see any MAC OSX packages that are developed for Thai people, please let u
 
 [1]: https://brew.sh
 [2]: https://github.com/Homebrew/homebrew-cask
+[thai-dict]: https://www.macthai.com/2015/11/05/install-dictionary-th-en-on-mac-osx/
+[sipa-font]: https://www.nstda.or.th/th/news/12102-thai-font
