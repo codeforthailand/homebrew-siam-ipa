@@ -3,7 +3,7 @@ cask 'thai-national-fonts' do
     version '1.0'
   
     url "https://storage.googleapis.com/codeforthailand/13-thai-national-fonts.zip"
-    sha256 "c4832b5d57106b47d3af36b2c562ced348fd25462727a92730291aa828f0a926"
+    sha256 "67739a3bb750036e8cf46abbcf3ab3544ab73456c76a7a0807fc649262b19b29"
 
     font "TH Srisakdi.ttf"
     font "TH Srisakdi Bold.ttf"
