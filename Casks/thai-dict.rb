@@ -1,3 +1,4 @@
+# Credit: https://github.com/ibotdotout/homebrew-mac-thai-dict
 cask 'thai-dict' do
     version '1.0.1'
   
