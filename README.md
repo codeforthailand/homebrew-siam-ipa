@@ -20,7 +20,7 @@ $ brew tap codeforthailand/siam-ipa
     ```
     $ brew cask install thai-national-fonts
     ```
-3. [Fonts from f0nt.com] (WIP)
+3. Fonts from f0nt.com (WIP)
 
 4. SWATH (WIP)
 
