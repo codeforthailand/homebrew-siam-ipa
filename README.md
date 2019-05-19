@@ -20,7 +20,9 @@ $ brew tap codeforthailand/siam-ipa
     ```
     $ brew cask install thai-national-fonts
     ```
-3. ...
+3. [Fonts from f0nt.com] (WIP)
+
+4. SWATH (WIP)
 
 ## Contributions
 If you see any macOS packages or applications that are developed for Thai people, please let us know or consider making PRs for them. We're more than happy to recieve your PRs.
