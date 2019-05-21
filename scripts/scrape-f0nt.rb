@@ -17,6 +17,7 @@ end
 PAGINATION_URL = "https://www.f0nt.com/release/page/<PAGE_NO>"
 MAX_PAGES = options[:trial_run] ? 1 : 64
 CSV_PATH = "data/f0nt.csv"
+VERSION = "1.0"
 
 def scrapeListingPage url
     puts "Scraping listing page: #{url}"
@@ -51,7 +52,8 @@ def scrapeFontPage url
         :author => doc.at("p.author a").inner_text,
         :file_path => file_dom.attr("href"),
         :url => url,
-        :total_downloads => total_downloads
+        :total_downloads => total_downloads,
+        :version => VERSION
     }
 end 
 
