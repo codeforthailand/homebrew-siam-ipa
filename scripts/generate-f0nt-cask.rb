@@ -16,17 +16,18 @@ CASK_DIR = "./Casks"
 FileUtils.mkdir(TMP_DIR) unless File.exist?(TMP_DIR)
 
 fonts = CSV.read(FILE_PATH, :headers => true).map{ |r|
-    r.to_hash
-}
+        r.to_hash
+    }
+    .select { |f| f["included"] == "1" }
+
+puts "Generate #{fonts.length} fonts"
 
 font_template = Erubis::Eruby.new(File.read(FONT_CASK_TEMPLATE))
 
 fonts.each { |f| 
-    slug = f["url"].match(/release\/(.+)\//)[1]
-    f["slug"] = slug
-    puts "Generating cask for #{slug}"
+    puts "Generating cask for #{f["slug"]} #{f["total_downloads"]}"
 
-    filepath = "#{CASK_DIR}/font-f0nt-#{slug}.rb"
+    filepath = "#{CASK_DIR}/font-f0nt-#{f["slug"]}.rb"
 
     content = open(f['file_path']).read
 
@@ -66,7 +67,7 @@ fonts.each { |f|
     font_files = []
     Zip::File.open("#{TMP_DIR}/tmp.zip") do |zip_file|
         font_files = zip_file.select do |entry|
-            entry.name.match(/[^_].+\.ttf$/i)
+            entry.name.match(/[^__].+\.ttf$/i)
         end
     end 
 
@@ -79,18 +80,14 @@ fonts.each { |f|
     end
 }
 
-top_20_fonts = fonts.sort_by { |k| -k["total_downloads"].to_i }
-    .map { |f| "font-f0nt-#{f["slug"]}" }
-
 font_col_template = Erubis::Eruby.new(File.read(FONT_COLLECTION_TEMPLATE))
 
-puts top_20_fonts[0, 20]
 rendered_collection = font_col_template.result(
     :version => COLLECTION_VERSION,
-    :fonts => top_20_fonts
+    :fonts => fonts
 )
 
-File.open("#{CASK_DIR}/font-collection-f0nt-top20.rb", 'w') do |file|
+File.open("#{CASK_DIR}/font-collection-f0nt.rb", 'w') do |file|
     file.write(rendered_collection)
 end
 

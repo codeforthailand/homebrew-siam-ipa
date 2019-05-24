@@ -15,12 +15,14 @@ if options[:trial_run] then
 end
 
 PAGINATION_URL = "https://www.f0nt.com/release/page/<PAGE_NO>"
-MAX_PAGES = options[:trial_run] ? 1 : 64
-CSV_PATH = "data/f0nt.csv"
+MAX_PAGES = options[:trial_run] ? 1 : 45
+CSV_PATH = "data/_f0nt.csv"
 VERSION = "1.0"
+WAITING_SEC=2
 
 def scrapeListingPage url
-    puts "Scraping listing page: #{url}"
+    puts "Scraping listing page: #{url} with #{WAITING_SEC} secs wait"
+    sleep(WAITING_SEC)
 
     html = open(url)
     doc = Nokogiri::HTML(html)
@@ -42,10 +44,17 @@ def scrapeFontPage url
     end 
 
 
-    total_downloads = doc.at("#download").inner_text
-        .match(/ดาวน์โหลดแล้ว ([0-9,]+) ครั้ง/)[1]
-        .gsub(",", "")
-        .to_i
+    download_str = doc.at("#download").inner_text
+            .match(/ดาวน์โหลดแล้ว ([0-9,]+) ครั้ง/)
+    if download_str then
+        total_downloads = download_str[1]
+            .gsub(",", "")
+            .to_i
+    else
+        total_downloads = 0
+    end
+
+    slug = url.match(/release\/(.+)\//)[1]
 
     return {
         :font_name => doc.at("h2.title").inner_text,
@@ -53,7 +62,9 @@ def scrapeFontPage url
         :file_path => file_dom.attr("href"),
         :url => url,
         :total_downloads => total_downloads,
-        :version => VERSION
+        :version => VERSION,
+        :slug => slug,
+        :included => 0
     }
 end 
 
