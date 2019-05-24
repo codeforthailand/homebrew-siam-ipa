@@ -1,7 +1,7 @@
 cask 'font-collection-cadson-demak' do
     version '1.0'
   
-    url "https://storage.googleapis.com/codeforthailand/fonts/cadson-demak-1.0.zip"
+    url "https://storage.googleapis.com/codeforthailand/fonts/cadson-demak-#{version}.zip"
     sha256 "c8eb746b7ad5ad6755769e7e7b5f78e00878229d0a060ba1789b196a00254ad7"
     name "Fonts by Cadson Demak. This collection inclues Athiti, Chonburi, Itim, Kanit, Maitree, Mitr, Pattaya, Pridi, Prompt, Sriracha, Taviraj, and Trirong"
     homepage "https://github.com/cadsondemak"

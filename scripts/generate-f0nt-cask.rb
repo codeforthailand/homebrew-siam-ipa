@@ -4,6 +4,7 @@ require 'erubis'
 require 'open-uri'
 require 'digest'
 require 'zip'
+require 'CGI'
 
 TMP_DIR = "./tmp"
 FILE_PATH = "./data/f0nt.csv"
@@ -39,6 +40,7 @@ fonts.each { |f|
 
     sha256 = Digest::SHA256.file "#{TMP_DIR}/tmp.zip"
     f['sha256'] = "#{sha256}" 
+    f['url'] = CGI::unescape(f['url'])
 
     # todo: check whether file exist 
     # if yes and sha256 != sha then create new one.

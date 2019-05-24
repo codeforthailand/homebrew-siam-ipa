@@ -7,7 +7,7 @@ cask "font-f0nt-rukdeaw" do
     sha256 "f2e89120a01209f191134aaaa55860eb2dc724cb9f13489e3bcbd5b7f3128e83"
 
     name "รักเดียว (can_Rukdeaw)"
-    homepage "https://www.f0nt.com/release/%e0%b8%a3%e0%b8%b1%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b5%e0%b8%a2%e0%b8%a7-can_rukdeaw/"
+    homepage "https://www.f0nt.com/release/รักเดียว-can_rukdeaw/"
 
     font "can_Rukdeaw01.ttf"
  end

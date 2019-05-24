@@ -7,7 +7,7 @@ cask "font-f0nt-jaew" do
     sha256 "098302ad55b727171a1cc6492ef16610e24b6cda4ae9542f5ed7337989adadc8"
 
     name "แจ๋ว (can_Jaew)"
-    homepage "https://www.f0nt.com/release/%e0%b9%81%e0%b8%88%e0%b9%8b%e0%b8%a7-can_jaew/"
+    homepage "https://www.f0nt.com/release/แจ๋ว-can_jaew/"
 
     font "can_Jaew/can_Jaew.ttf"
  end

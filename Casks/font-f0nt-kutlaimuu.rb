@@ -7,7 +7,7 @@ cask "font-f0nt-kutlaimuu" do
     sha256 "ded7aadf420ad481894011878155b6d93eb259c4686d35a94b3af5803749b4c8"
 
     name "Layiji คัดลายมือ"
-    homepage "https://www.f0nt.com/release/layiji-%e0%b8%84%e0%b8%b1%e0%b8%94%e0%b8%a5%e0%b8%b2%e0%b8%a2%e0%b8%a1%e0%b8%b7%e0%b8%ad/"
+    homepage "https://www.f0nt.com/release/layiji-คัดลายมือ/"
 
     font "Layiji_kutlaimuu.ttf"
  end
