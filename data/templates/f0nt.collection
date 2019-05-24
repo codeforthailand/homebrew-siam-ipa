@@ -10,6 +10,6 @@ cask "font-collection-f0nt" do
     homepage "https://www.f0nt.com"
 
     <% for f in fonts %>
-        depends_on cask: "<%= f %>"
+        depends_on cask: "font-f0nt-<%= f %>"
     <% end %>
  end
