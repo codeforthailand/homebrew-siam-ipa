@@ -17,7 +17,8 @@ $ brew tap codeforthailand/siam-ipa
     $ brew cask install thai-dict
     ```
 2. Thai Font Collections
-    These font collections can be installed using the following command:
+
+    These font collections can be installed via the following command:
     ```
     $ brew cask install font-collection-<NAME>
     ```
@@ -29,7 +30,7 @@ $ brew tap codeforthailand/siam-ipa
 
     some description
 
-3. SWATH (WIP)
+4. SWATH (WIP)
 
 ## Contributions
 If you see any macOS packages or applications that are developed for Thai people, please let us know or consider making PRs for them. We're more than happy to recieve your PRs.
