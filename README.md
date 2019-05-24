@@ -51,7 +51,7 @@ $ brew cask install <NAME>
 If you see any macOS packages or applications that are developed for Thai people, please let us know or consider making PRs for them. We're more than happy to recieve your PRs.
 
 ## Acknowledgements
-- Thanks @lannainnovation for assembling [the list of Thai font collections][thai-collection].
+- Thanks [@lannainnovation](https://github.com/lannainnovation) for assembling [the list of Thai font collections][thai-collection].
 
 [1]: https://brew.sh
 [2]: https://github.com/Homebrew/homebrew-cask
