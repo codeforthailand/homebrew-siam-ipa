@@ -42,9 +42,6 @@ fonts.each { |f|
     f['sha256'] = "#{sha256}" 
     f['url'] = CGI::unescape(f['url'])
 
-    # todo: check whether file exist 
-    # if yes and sha256 != sha then create new one.
-
     if File.exist?(filepath) then
         puts " file already exits"
     
@@ -86,7 +83,7 @@ font_col_template = Erubis::Eruby.new(File.read(FONT_COLLECTION_TEMPLATE))
 
 rendered_collection = font_col_template.result(
     :version => COLLECTION_VERSION,
-    :fonts => fonts
+    :fonts => fonts.map{ |f| f['slug'] }
 )
 
 File.open("#{CASK_DIR}/font-collection-f0nt.rb", 'w') do |file|
