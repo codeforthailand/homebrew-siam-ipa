@@ -22,27 +22,27 @@ $ brew cask install <NAME>
 
    1. [13 Thai National Fonts by SIPA][sipa-font] (name=`font-collection-sipa`)
 
-    [Preview](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#dip-sipa)
+        [Preview](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#dip-sipa)
 
    2. [Popular Fonts from f0nt.com][f0nt] (name=`font-collection-f0nt`)
 
-    WIP. 
+        WIP. 
 
    3. [Cadson Demak](https://github.com/cadsondemak)(name=`font-collection-cadson-demak`)
 
-    [Preview](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#cadson-demak)
+        [Preview](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#cadson-demak)
 
    4. [NECTEC ✕ Thai Linux Working Group](https://www.nectec.or.th/pub/review-software/font/national-fonts.html)(name=`font-collection-nectec-tlwg`)
 
-    [Preview](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#nectec-national-fonts)
+        [Preview](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#nectec-national-fonts)
 
    5. [TEPC](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#thai-electronic-publishing-club-tepc)(name=`font-collection-tepc`)
 
-    [Preview](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#thai-electronic-publishing-club-tepc)
+        [Preview](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#thai-electronic-publishing-club-tepc)
 
    6. [JS-Technology](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#js-technology)(name=`font-collection-js-technology`)
 
-    [Preview](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#js-technology)
+        [Preview](https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#js-technology)
 
 
 4. SWATH (WIP)
