@@ -22,8 +22,10 @@ $ brew tap codeforthailand/siam-ipa
     $ brew cask install font-collection-<NAME>
     ```
    1. [13 Thai National Fonts by SIPA][sipa-font] (name=`sipa`)
+
     some description
    2. [Popular Fonts from f0nt.com][f0nt] (name=`f0nt`)
+
     some description
 
 3. SWATH (WIP)
