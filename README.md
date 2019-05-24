@@ -11,24 +11,39 @@ If you already have those two packages, you just need to tap the repository
 $ brew tap codeforthailand/siam-ipa
 ```
 
+And available formulas can be installed using the command template below:
+```
+$ brew cask install <NAME>
+```
+
 ## Available Formulae and Casks
-1. [Thai-Eng Dictionary by Infinisoft and NECTEC][thai-dict]
-    ```
-    $ brew cask install thai-dict
-    ```
+1. [Thai-Eng Dictionary by Infinisoft and NECTEC][thai-dict] (name=`thai-dict`)
 2. Thai Font Collections
 
-    These font collections can be installed via the following command:
-    ```
-    $ brew cask install font-collection-<NAME>
-    ```
-   1. [13 Thai National Fonts by SIPA][sipa-font] (name=`sipa`)
+   1. [13 Thai National Fonts by SIPA][sipa-font] (name=`font-collection-sipa`)
 
-    some description
+    Example
 
-   2. [Popular Fonts from f0nt.com][f0nt] (name=`f0nt`)
+   2. [Popular Fonts from f0nt.com][f0nt] (name=`font-collection-f0nt`)
 
-    some description
+    Example
+
+   3. [Cadson Demak][https://github.com/cadsondemak](name=`font-collection-cadson-demak`)
+
+    (Preview)[https://github.com/lannainnovation/thai-font-collection/tree/master/downloadable-free-thai-fonts#cadson-demak]
+
+   4. [NECTEC ✕ Thai Linux Working Group][https://www.nectec.or.th/pub/review-software/font/national-fonts.html](name=`font-collection-nectec-tlwg`)
+
+    Example
+
+   5. [TEPC][](name=`font-collection-tepc`)
+
+    Example
+
+   6. [JS-Technology][](name=`font-collection-js-technolog`)
+
+    Example
+
 
 4. SWATH (WIP)
 
