@@ -16,13 +16,17 @@ $ brew tap codeforthailand/siam-ipa
     ```
     $ brew cask install thai-dict
     ```
-2. [13 Thai National Fonts by SIPA][sipa-font]
+2. Thai Font Collections
+    These font collections can be installed using the following command:
     ```
-    $ brew cask install thai-national-fonts
+    $ brew cask install font-collection-<NAME>
     ```
-3. Fonts from f0nt.com (WIP)
+   1. [13 Thai National Fonts by SIPA][sipa-font] (name=`sipa`)
+    some description
+   2. [Popular Fonts from f0nt.com][f0nt] (name=`f0nt`)
+    some description
 
-4. SWATH (WIP)
+3. SWATH (WIP)
 
 ## Contributions
 If you see any macOS packages or applications that are developed for Thai people, please let us know or consider making PRs for them. We're more than happy to recieve your PRs.
@@ -32,3 +36,4 @@ If you see any macOS packages or applications that are developed for Thai people
 [2]: https://github.com/Homebrew/homebrew-cask
 [thai-dict]: https://www.macthai.com/2015/11/05/install-dictionary-th-en-on-mac-osx/
 [sipa-font]: https://www.nstda.or.th/th/news/12102-thai-font
+[f0nt]: https://www.f0nt.com
