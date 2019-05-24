@@ -1,8 +1,7 @@
 cask 'font-collection-js-technology' do
     version '1.0'
-    slug "js-technology"
 
-    url "https://storage.googleapis.com/codeforthailand/fonts/#{slug}-#{version}.zip"
+    url "https://storage.googleapis.com/codeforthailand/fonts/js-technology-#{version}.zip"
     sha256 "d869c074cea192f06fe30ced57135270fc84d8c0d45a56da7f9384595042b657"
     name "The monumental efforts of Panutat Tejasen, Seveng Tantiraphan, and Pongsathorn Sraouthai, who together are also published under JS Technology, is the heart of this project, at nearly 60% of the font families and nearly 30% of all font families in this collection. Read more about the history of the JS Technology fonts at https://m.facebook.com/photo.php?fbid=548544991889214&id=100002011547717"
     homepage "https://m.facebook.com/photo.php?fbid=548544991889214&id=100002011547717"
