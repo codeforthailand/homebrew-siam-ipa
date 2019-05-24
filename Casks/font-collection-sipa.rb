@@ -1,4 +1,4 @@
-cask 'f0nt-collection-sipa' do
+cask 'font-collection-sipa' do
     version '1.0'
   
     url "https://storage.googleapis.com/codeforthailand/13-thai-national-fonts-#{version}.zip"
