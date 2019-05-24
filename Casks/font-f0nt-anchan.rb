@@ -10,5 +10,4 @@ cask "font-f0nt-anchan" do
     homepage "https://www.f0nt.com/release/anchan/"
 
     font "Anchan.ttf"
-    font "__MACOSX/._Anchan.ttf"
  end

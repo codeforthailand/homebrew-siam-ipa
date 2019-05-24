@@ -10,5 +10,4 @@ cask "font-f0nt-ac-espressa" do
     homepage "https://www.f0nt.com/release/ac-espressa/"
 
     font "AC Espressa.ttf"
-    font "__MACOSX/._AC Espressa.ttf"
  end

@@ -10,5 +10,4 @@ cask "font-f0nt-supermarket" do
     homepage "https://www.f0nt.com/release/supermarket/"
 
     font "supermarket-1-1/supermarket.ttf"
-    font "__MACOSX/supermarket-1-1/._supermarket.ttf"
  end

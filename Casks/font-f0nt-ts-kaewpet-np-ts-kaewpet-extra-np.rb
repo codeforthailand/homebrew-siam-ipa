@@ -10,9 +10,6 @@ cask "font-f0nt-ts-kaewpet-np-ts-kaewpet-extra-np" do
     homepage "https://www.f0nt.com/release/ts-kaewpet-np-ts-kaewpet-extra-np/"
 
     font "TS-Kaewpet-NP/TS-kaewpet Bold-NP.ttf"
-    font "__MACOSX/TS-Kaewpet-NP/._TS-kaewpet Bold-NP.ttf"
     font "TS-Kaewpet-NP/TS-kaewPet Extra-NP.ttf"
-    font "__MACOSX/TS-Kaewpet-NP/._TS-kaewPet Extra-NP.ttf"
     font "TS-Kaewpet-NP/TS-kaewpet NP.ttf"
-    font "__MACOSX/TS-Kaewpet-NP/._TS-kaewpet NP.ttf"
  end

@@ -10,5 +10,4 @@ cask "font-f0nt-book-akhanake" do
     homepage "https://www.f0nt.com/release/book-akhanake/"
 
     font "Book Akhanake/Book_Akhanake.ttf"
-    font "__MACOSX/Book Akhanake/._Book_Akhanake.ttf"
  end

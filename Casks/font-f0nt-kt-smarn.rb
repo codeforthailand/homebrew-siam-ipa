@@ -10,7 +10,5 @@ cask "font-f0nt-kt-smarn" do
     homepage "https://www.f0nt.com/release/kt_smarn/"
 
     font "kt_smarn.ttf"
-    font "__MACOSX/._kt_smarn.ttf"
     font "kt_smarnspecial.ttf"
-    font "__MACOSX/._kt_smarnspecial.ttf"
  end

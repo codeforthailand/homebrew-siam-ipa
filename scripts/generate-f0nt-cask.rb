@@ -66,7 +66,8 @@ fonts.each { |f|
     font_files = []
     Zip::File.open("#{TMP_DIR}/tmp.zip") do |zip_file|
         font_files = zip_file.select do |entry|
-            entry.name.match(/[^__].+\.ttf$/i)
+            entry.name.match(/.+\.ttf$/i) \
+            and not entry.name.match(/^__MACOSX.+/)
         end
     end 
 

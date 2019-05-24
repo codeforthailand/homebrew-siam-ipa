@@ -12,7 +12,4 @@ cask "font-f0nt-kunlasatri" do
     font "Kunlasatri/Kunlasatri-Bold.ttf"
     font "Kunlasatri/Kunlasatri-Light.ttf"
     font "Kunlasatri/Kunlasatri.ttf"
-    font "__MACOSX/Kunlasatri/._Kunlasatri-Bold.ttf"
-    font "__MACOSX/Kunlasatri/._Kunlasatri-Light.ttf"
-    font "__MACOSX/Kunlasatri/._Kunlasatri.ttf"
  end

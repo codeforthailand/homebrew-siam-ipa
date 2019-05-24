@@ -10,5 +10,4 @@ cask "font-f0nt-pahnto" do
     homepage "https://www.f0nt.com/release/pahnto/"
 
     font "pahnto.ttf"
-    font "__MACOSX/._pahnto.ttf"
  end

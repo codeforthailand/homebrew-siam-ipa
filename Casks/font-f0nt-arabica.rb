@@ -10,7 +10,5 @@ cask "font-f0nt-arabica" do
     homepage "https://www.f0nt.com/release/arabica/"
 
     font "Arabica file/ttf/Arabica-Italic.ttf"
-    font "__MACOSX/Arabica file/ttf/._Arabica-Italic.ttf"
     font "Arabica file/ttf/Arabica.ttf"
-    font "__MACOSX/Arabica file/ttf/._Arabica.ttf"
  end
