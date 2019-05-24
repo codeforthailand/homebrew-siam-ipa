@@ -50,9 +50,12 @@ $ brew cask install <NAME>
 ## Contributions
 If you see any macOS packages or applications that are developed for Thai people, please let us know or consider making PRs for them. We're more than happy to recieve your PRs.
 
+## Acknowledgements
+- Thanks @lannainnovation for assembling [the list of Thai font collections][thai-collection].
 
 [1]: https://brew.sh
 [2]: https://github.com/Homebrew/homebrew-cask
 [thai-dict]: https://www.macthai.com/2015/11/05/install-dictionary-th-en-on-mac-osx/
 [sipa-font]: https://www.nstda.or.th/th/news/12102-thai-font
 [f0nt]: https://www.f0nt.com
+[thai-collection]: https://github.com/lannainnovation/thai-font-collection
