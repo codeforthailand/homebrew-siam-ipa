@@ -12,7 +12,6 @@ cask "font-collection-f0nt" do
         depends_on cask: "font-f0nt-atnoon-bighead"
         depends_on cask: "font-f0nt-waffle"
         depends_on cask: "font-f0nt-sanamdeklen-chaya"
-        depends_on cask: "font-f0nt-the-little-uki-noworry"
         depends_on cask: "font-f0nt-tlu-huatoo0"
         depends_on cask: "font-f0nt-supermarket"
         depends_on cask: "font-f0nt-iannnnnmtv"

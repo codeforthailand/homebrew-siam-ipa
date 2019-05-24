@@ -26,7 +26,7 @@ $ brew cask install <NAME>
 
    2. [Popular Fonts from f0nt.com][f0nt] (name=`font-collection-f0nt`)
 
-        WIP. 
+        WIP. [Preview](https://docs.google.com/spreadsheets/d/1RWFD0wnx_m7IqUQ3KFfTtztXdsG3q0Fhnz7LN7A31rc/edit?usp=sharing)
 
    3. [Cadson Demak](https://github.com/cadsondemak)(name=`font-collection-cadson-demak`)
 
