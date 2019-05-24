@@ -22,7 +22,6 @@ cask "font-collection-f0nt" do
         depends_on cask: "font-f0nt-bangnumpueng"
         depends_on cask: "font-f0nt-atnoon"
         depends_on cask: "font-f0nt-nongaor"
-        depends_on cask: "font-f0nt-blk-thai-vi28"
         depends_on cask: "font-f0nt-book-r-lux-2006"
         depends_on cask: "font-f0nt-layiji-mahaniyom-bao-1-2"
         depends_on cask: "font-f0nt-bangna-new"
